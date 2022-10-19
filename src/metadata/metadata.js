@@ -1,68 +1,71 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Santiago Contreras',
+  title: 'Systems Engineering Student',
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
+    'Residence': '<a href="https://goo.gl/maps/gZaGv9jwZtJKfUUJ7"><i class="fa fa-home fact-icon"></i>Hermosillo</a>',
+    'GitHub': `<a href="https://github.com/disaa0">
+                  <i class="fa-brands fa-github fact-icon"></i>disaa0
                 </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    'Twitter': `<a href="https://twitter.com/disaan0"><i class="fa-brands fa-twitter fact-icon"></i>disaan_</a>`,
+    'Email': '<a href="mailto:disaan@protonmail.com"><i class="fa fa-envelope fact-icon"></i>disaan@protonmail.com</a>'
   },
   skills: [
-    ['Comedy', 100],
-    ['Love', 100],
-    ['Theater', 100],
-    ['Tragedy', 100],
-    ['Poetry', 100],
-    ['Erotic', 75],
-    ['Sonnets', 100],
-    ['Plays', 100],
-    ['Writing', 100],
-    ['Directing', 75],
-    ['Literature', 100],
-    ['Influence', 100],
+    ['Linux', 85],
+    ['Shell', 75],
+    ['Python', 75],
+    ['Java', 60],
+    ['C++', 60],
+    ['SQL', 60],
+    ['Networking', 50],
+    ['HTML', 80],
+    ['CSS', 60],
+    ['PHP', 25],
+    ['JavaScript', 25],
   ],
   positions: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
+      title: 'Lead developer - UniSon Online',
+      period: 'Sep 2022 - ongoing',
+      skills: ['PHP', 'JavaScript', 'CSS', 'MySQL', 'School Project'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+      I'm currently working UniSon Online, an University of Sonora private social network platform.
 `
     },
     {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
+      title: 'Backend Developer - PetCenter',
+      period: 'Mar 2021 – May 2021',
+      skills: ['Python', 'Flask', 'Bootstrap5', 'School Project'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
+I worked on all of the backend of PetCenter, a website used to manage all of the functions of a veterinary.
 `
     },
+  ],
+  education: [
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
-      contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
+      degree: 'Information and Communications Systems Engineering',
+      period: 'Aug 2020 - ongoing',
+      university: 'University of Sonora',
     }
+  ],
+  languages: [
+    {
+      title: 'Spanish',
+      level: 'Native',
+      tecnical: ''
+    },
+    {
+      title: 'English',
+      level: 'Advanced',
+      tecnical: 'C1'
+    },
   ],
   experience: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
+      header: 'UniSon Online',
+      skills: ['Web', 'School Project'],
       contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
+Lead developer of 'UniSon Online' an University of Sonora Private Social Network Platform Demostration based HumHub.
 `
     },
-    {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
-`
-    }
   ]
 };
