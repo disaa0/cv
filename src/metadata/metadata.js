@@ -27,6 +27,7 @@ module.exports = {
       title: 'Lead developer - UniSon Online',
       period: 'Sep 2022 - ongoing',
       skills: ['PHP', 'JavaScript', 'CSS', 'MySQL', 'School Project'],
+      git: '',
       contents: `
       I'm currently working UniSon Online, an University of Sonora private social network platform.
 `
@@ -35,6 +36,9 @@ module.exports = {
       title: 'Backend Developer - PetCenter',
       period: 'Mar 2021 – May 2021',
       skills: ['Python', 'Flask', 'Bootstrap5', 'School Project'],
+      git: `<a href="https://github.com/SanUnison/PetCenter">
+      <i class="fa-brands fa-github"></i>
+    </a>`,
       contents: `
 I worked on all of the backend of PetCenter, a website used to manage all of the functions of a veterinary.
 `
@@ -55,7 +59,7 @@ I worked on all of the backend of PetCenter, a website used to manage all of the
     },
     {
       title: 'English',
-      level: 'Advanced',
+      level: 'Advanced C1',
       tecnical: 'C1'
     },
   ],
