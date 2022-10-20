@@ -20,6 +20,7 @@ module.exports = {
     ['C++', 60],
     ['SQL', 60],
     ['Networking', 50],
+    ['Docker', 50],
     ['HTML', 80],
     ['CSS', 60],
     ['PHP', 25],
