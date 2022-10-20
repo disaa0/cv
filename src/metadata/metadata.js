@@ -6,7 +6,10 @@ module.exports = {
     'GitHub': `<a href="https://github.com/disaa0">
                   <i class="fa-brands fa-github fact-icon"></i>disaa0
                 </a>`,
-    'Twitter': `<a href="https://twitter.com/disaan0"><i class="fa-brands fa-twitter fact-icon"></i>disaan_</a>`,
+    'LinkedIn': `<a href="https://www.linkedin.com/in/sancdev/">
+                  <i class="fa-brands fa-linkedin fact-icon"></i>sancdev
+                </a>`,
+    'Twitter': `<a href="https://twitter.com/disaan_"><i class="fa-brands fa-twitter fact-icon"></i>disaan_</a>`,
     'Email': '<a href="mailto:disaan@protonmail.com"><i class="fa fa-envelope fact-icon"></i>disaan@protonmail.com</a>'
   },
   skills: [
