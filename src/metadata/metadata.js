@@ -36,7 +36,7 @@ module.exports = {
           title: 'UniSon Online',
           period: 'Sep 2022 - ongoing',
           skills: ['PHP', 'JavaScript', 'CSS', 'MySQL'],
-          git: 'https://github.com/disaa0/unison_online',
+          git: '<a href="https://github.com/disaa0/unison_online"> <i class="fa-brands fa-github"></i> </a>',
           contents: `
           University of Sonora private social network platform.
           `
