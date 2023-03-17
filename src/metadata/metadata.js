@@ -18,7 +18,7 @@ module.exports = {
     ['JavaScript', 60],
     ['MySQL', 60],
     ['Java', 50],
-    ['C++', 35],
+    ['C++', 40],
     ['HTML', 80],
     ['CSS', 60],
     ['PHP', 40],
@@ -27,7 +27,7 @@ module.exports = {
   ],
   education: [
     {
-      degree: 'Information and Communications Systems Engineering',
+      degree: 'Information and Communication Systems Engineering',
       period: 'Aug 2020 - ongoing',
       university: 'University of Sonora',
       projects: [
