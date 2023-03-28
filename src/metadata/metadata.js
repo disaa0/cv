@@ -35,7 +35,7 @@ module.exports = {
           title: 'Notarius',
           position: 'QA and Deployment',
           period: 'Sep 2022 - December 2022',
-          skills: ['Python', 'Qt', 'Waterfall'],
+          skills: ['Python', 'Qt', 'Spiral'],
           git: '',
           contents: `
           I'm currently working as QA and Deployment developer of Notarius, a Notary management software. 
@@ -81,10 +81,10 @@ module.exports = {
   ],
   experience: [
     {
-      header: 'Operating systems',
-      skills: ['Linux', 'Unix'],
+      header: '',
+      skills: ['', ''],
       contents: `
-Deep knowledge of Linux operating systems.
+.
 `
     },
   ],
@@ -96,7 +96,7 @@ Strong problem-solving skills and ability to work in a team environment.
     },
     {
       content: `
-Experience with agile and waterfall software development methodologies.
+Experience with agile software development methodologies.
 `
     },
     {
