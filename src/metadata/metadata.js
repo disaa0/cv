@@ -12,16 +12,22 @@ module.exports = {
     //'Twitter': `<a href="https://twitter.com/"><i class="fa-brands fa-twitter fact-icon"></i></a>`,
     'Email': '<a href="mailto:disaan@protonmail.com"><i class="fa fa-envelope fact-icon"></i>disaan@protonmail.com</a>'
   },
-  skills: [
-    ['Bash', 60],
-    ['Python', 60],
-    ['JavaScript', 60],
-    ['MySQL', 60],
-    ['Java', 50],
-    ['C++', 40],
-    ['HTML', 80],
-    ['CSS', 60],
-    ['PHP', 40],
+ skills: [
+    {
+      content: `
+Python / Java / JS / C++ / PHP
+`
+    },
+    {
+      content: `
+Bootstrap5 / Qt / NodeJS
+`
+    },
+    {
+      content: `
+Apache / Nginx / MySQL
+`
+    },
   ],
   positions: [
   ],
@@ -38,7 +44,7 @@ module.exports = {
           skills: ['Python', 'Qt', 'Spiral'],
           git: '',
           contents: `
-          I'm currently working as QA and Deployment developer of Notarius, a Notary management software. 
+          I lead the QA and Deployment development teams of Notarius, a Notary management software. 
           `
         },
         {

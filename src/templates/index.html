@@ -125,25 +125,20 @@
             </div>
             {{/if}}
         </div>
-
         <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+            {{#if skills}}
             <h2 class="mb-3">Technical Skills</h2>
-            <div class="row align-items-center">
-                {{#each skills}}
-                <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
-                    <small>{{ this.[0] }}</small>
-                </div>
-                <div class="col-print-1 col-3 col-md-2 col-lg-1">
-                    <div class="skills">
-                        <div class="skills-bar" style="width: {{ this.[1] }}%"></div>
-                    </div>
-                </div>
-                {{/each}}
+            <div class="mt-3">
+                <ul>
+                    {{#each skills}}
+                    <li>
+                        <p class="mb-0">{{content}}</p>
+                    </li>
+                    {{/each}}
+                </ul>
             </div>
+            {{/if}}
         </div>
-        
-
-
 
         <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
             <h2 class="mb-4">Languages</h2>
