@@ -42,7 +42,7 @@ Apache / Nginx / MySQL
           position: 'QA and Deployment',
           period: 'Sep 2022 - December 2022',
           skills: ['Python', 'Qt', 'Spiral'],
-          git: '',
+          git: '<a href="https://github.com/andreadh01/Notarius"> <i class="fa-brands fa-github"></i> </a>',
           contents: `
           I lead the QA and Deployment development teams of Notarius, a Notary management software. 
           `
