@@ -36,7 +36,7 @@ Apache / Nginx / MySQL
       degree: 'Information and Communication Systems Engineering',
       period: 'Aug 2020 - ongoing',
       university: 'University of Sonora',
-      projects: [
+     projects: [
         {
           title: 'Notarius',
           position: 'QA and Deployment',
@@ -70,6 +70,43 @@ Apache / Nginx / MySQL
           `
         },
 
+      ],
+    },
+    {
+      degree: 'Abroad Semester',
+      period: 'Oct 2023 - Feb 2024',
+      university: 'Łódź University of Technology',
+      projects: [
+        {
+          title: "SMS Spam classification model",
+          position: "Developer",
+          period: "Sep 2022 - December 2022",
+          skills: ["Apache Spark", "Machine Learning", "Naive Bayes"],
+          git: '<a href="https://github.com/disaa0/sms-classification"> <i class="fa-brands fa-github"></i> </a>',
+          contents: `
+            The overarching objective of this project was to leverage the capabilities of Apache Spark for large-scale data processing to develop an effective machine learning model for classifying SMS messages as spam or non-spam.
+          `
+        },
+        {
+          title: "VR interactive videogame",
+          position: "Developer",
+          period: "Sep 2022 - December 2022",
+          skills: ["Unity", "C#", "MetaQuest"],
+          git: null,
+          contents: `
+            Developed a VR interactive game compatible with Meta Quest headsets using the MetaQuest Unity SDK.
+          `
+        },
+        {
+          title: "OpenVPN Implementation",
+          position: "Developer",
+          period: "Sep 2022 - December 2022",
+          skills: ["OpenVPN", "Networking", "Linux"],
+          git: null,
+          contents: `
+            Implemented OpenVPN on a Virtual Private Server (VPS) to establish secure and encrypted connections.
+          `
+        }
       ],
     },
   ],
@@ -127,7 +164,7 @@ Familiarity with relational Database Management Systems such as MySQL, PostgreSQ
     },
     {
       content: `
-      Ability to write clean, maintainable, and efficient code.
+Ability to write clean, maintainable, and efficient code.
 `
     },
   ],
